@@ -23,4 +23,6 @@ for(int i = 0; i < 234; ++i){
   std::cout << diff/234 << std::endl;
   fin.close();
   fin2.close();
+
+  std::cout << "Varianz: " << sqrt(diff/234) << std::endl;  
 }
